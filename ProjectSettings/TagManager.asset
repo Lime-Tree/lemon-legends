@@ -50,3 +50,6 @@ TagManager:
   - name: Weapon
     uniqueID: 1103929089
     locked: 0
+  - name: New Layer
+    uniqueID: 459726411
+    locked: 0

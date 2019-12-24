@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		// Check for attack input (higher priority than movement)
-		if (Input.GetKeyDown("x") && currentState != PlayerState.attack)
+		if (Input.GetMouseButtonDown(0) && currentState != PlayerState.attack)
 		{
 			animator.SetBool("isMoving", false);
 			StartCoroutine(AttackCoroutine());
